@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/design/main.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__card">
+        <div class="main__card__info">
+          <img
+            src="/images/image-jeremy.png"
+            alt="Profile pic"
+            class="main__card__info__img"
+          />
+          <div class="main__card__info__text">
+            <h4 class="main__card__info__text__report">Report for</h4>
+            <h2 class="main__card__info__text__name">Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="main__card__selection">
+          <h4 class="main__card__selection__text">Daily</h4>
+          <h4 class="main__card__selection__text">Weekly</h4>
+          <h4 class="main__card__selection__text">Daily</h4>
+        </div>
+      </div>
+      <div class="main__daily">
+        <div class="main__daily__card">
+          <div class="main__daily__color work">
+            <img
+              src="/images/icon-work.svg"
+              alt="Work svg"
+              class="main__daily__color__img work__img"
+            />
+
+            <div class="main__daily__card__hours">
+              <div class="main__daily__card__hours__current">
+                <h2 class="main__daily__card__hours__current__hours__text">
+                  Work
+                </h2>
+                <h2 class="main__daily__card__hours__current__hours__amount">
+                  5 hours
+                </h2>
+              </div>
+              <div class="main__daily__card__hours__previous">
+                <h4 class="main__daily__card__hours__previous__dots">...</h4>
+                <h4 class="main__daily__card__hours__previous__hours">
+                  Previous - 7hours
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__daily__color play">
+          <img
+            src="/images/icon-play.svg"
+            alt="Work svg"
+            class="main__daily__color__img play__img"
+          />
+        </div>
+        <div class="main__daily__card">
+          <div class="main__daily__card__hours">
+            <div class="main__daily__card__hours__current">
+              <h2 class="main__daily__card__hours__current__hours__text">
+                Work
+              </h2>
+              <h2 class="main__daily__card__hours__current__hours__amount">
+                5 hours
+              </h2>
+            </div>
+            <div class="main__daily__card__hours__previous">
+              <h4 class="main__daily__card__hours__previous__dots">...</h4>
+              <h4 class="main__daily__card__hours__previous__hours">
+                Previous - 7hours
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="main__daily__color study">
+          <img
+            src="/images/icon-study.svg"
+            alt="Work svg"
+            class="main__daily__color__img study__img"
+          />
+        </div>
+        <div class="main__daily__card">
+          <div class="main__daily__card__hours">
+            <div class="main__daily__card__hours__current">
+              <h2 class="main__daily__card__hours__current__hours__text">
+                Work
+              </h2>
+              <h2 class="main__daily__card__hours__current__hours__amount">
+                5 hours
+              </h2>
+            </div>
+            <div class="main__daily__card__hours__previous">
+              <h4 class="main__daily__card__hours__previous__dots">...</h4>
+              <h4 class="main__daily__card__hours__previous__hours">
+                Previous - 7hours
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="main__daily__color exercise">
+          <img
+            src="/images/icon-exercise.svg"
+            alt="Work svg"
+            class="main__daily__color__img exercise__img"
+          />
+        </div>
+        <div class="main__daily__card">
+          <div class="main__daily__card__hours">
+            <div class="main__daily__card__hours__current">
+              <h2 class="main__daily__card__hours__current__hours__text">
+                Work
+              </h2>
+              <h2 class="main__daily__card__hours__current__hours__amount">
+                5 hours
+              </h2>
+            </div>
+            <div class="main__daily__card__hours__previous">
+              <h4 class="main__daily__card__hours__previous__dots">...</h4>
+              <h4 class="main__daily__card__hours__previous__hours">
+                Previous - 7hours
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="main__daily__color social">
+          <img
+            src="/images/icon-social.svg"
+            alt="Work svg"
+            class="main__daily__color__img social__img"
+          />
+        </div>
+        <div class="main__daily__card">
+          <div class="main__daily__card__hours">
+            <div class="main__daily__card__hours__current">
+              <h2 class="main__daily__card__hours__current__hours__text">
+                Work
+              </h2>
+              <h2 class="main__daily__card__hours__current__hours__amount">
+                5 hours
+              </h2>
+            </div>
+            <div class="main__daily__card__hours__previous">
+              <h4 class="main__daily__card__hours__previous__dots">...</h4>
+              <h4 class="main__daily__card__hours__previous__hours">
+                Previous - 7hours
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="main__daily__color self-care">
+          <img
+            src="/images/icon-self-care.svg"
+            alt="Work svg"
+            class="main__daily__color__img self-care__img"
+          />
+        </div>
+        <div class="main__daily__card">
+          <div class="main__daily__card__hours">
+            <div class="main__daily__card__hours__current">
+              <h2 class="main__daily__card__hours__current__hours__text">
+                Work
+              </h2>
+              <h2 class="main__daily__card__hours__current__hours__amount">
+                5 hours
+              </h2>
+            </div>
+            <div class="main__daily__card__hours__previous">
+              <h4 class="main__daily__card__hours__previous__dots">...</h4>
+              <h4 class="main__daily__card__hours__previous__hours">
+                Previous - 7hours
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__weekly"></div>
+      <div class="main__monthly"></div>
+    </main>
+    Work 5hrs
+    <!-- daily -->
+    Previous - 7hrs
+    <!-- daily -->
+    32hrs
+    <!-- weekly -->
+    Previous - 36hrs
+    <!-- weekly -->
+    103hrs
+    <!-- monthly -->
+    Previous - 128hrs
+    <!-- monthly -->
+
+    Play 1hr
+    <!-- daily -->
+    Previous - 2hrs
+    <!-- daily -->
+    10hrs
+    <!-- weekly -->
+    Previous - 8hrs
+    <!-- weekly -->
+    23hrs
+    <!-- monthly -->
+    Previous - 29hrs
+    <!-- monthly -->
+
+    Study 0hrs
+    <!-- daily -->
+    Previous - 1hr
+    <!-- daily -->
+    4hrs
+    <!-- weekly -->
+    Previous - 7hrs
+    <!-- weekly -->
+    13hrs
+    <!-- monthly -->
+    Previous - 19hrs
+    <!-- monthly -->
+
+    Exercise 1hr
+    <!-- daily -->
+    Previous - 1hr
+    <!-- daily -->
+    4hrs
+    <!-- weekly -->
+    Previous - 5hrs
+    <!-- weekly -->
+    11hrs
+    <!-- monthly -->
+    Previous - 18hrs
+    <!-- monthly -->
+
+    Social 1hr
+    <!-- daily -->
+    Previous - 3hrs
+    <!-- daily -->
+    5hrs
+    <!-- weekly -->
+    Previous - 10hrs
+    <!-- weekly -->
+    21hrs
+    <!-- monthly -->
+    Previous - 23hrs
+    <!-- monthly -->
+
+    Self Care 0hrs
+    <!-- daily -->
+    Previous - 1hr
+    <!-- daily -->
+    2hrs
+    <!-- weekly -->
+    Previous - 2hrs
+    <!-- weekly -->
+    7hrs
+    <!-- monthly -->
+    Previous - 11hrs
+    <!-- monthly -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ignas Davulis</a>.
+    </div>
+    <script src="/script/index.js"></script>
+  </body>
+</html>
